@@ -1,0 +1,63 @@
+.mainHeader {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 267px;
+  background: rgba(4, 191, 148, 0.16);
+  border-radius: 16px;
+  margin-top: 48px;
+
+  .mainBody {
+    margin: 56px 0 56px 5%;
+    width: 65%;
+
+    .title {
+      display: flex;
+      font-family: 'Poppins';
+      font-weight: 800;
+      font-size: 32px;
+      color: #04BF94;
+    }
+
+    .temperature {
+      font-family: 'Poppins';
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 27px;
+      display: flex;
+      align-items: center;
+      color: #242424;
+    }
+
+    .label {
+      position: relative;
+
+      .input {
+        width: 75%;
+        height: 21%;
+        margin-top: 3.7%;
+        border-radius: 12px;
+        padding: 0 3%;
+        border: none;
+        &:focus {
+          outline: none;
+        }
+      }
+
+      ::placeholder {
+        color: #91A0B6;
+      }
+
+      &::before {
+        content: "";
+        position: absolute;
+        right: 16px;
+        top: 5px;
+        bottom: 0;
+        width: 13px;
+        height: 13px;
+        background: url("../../../assets/magnifying-glass.svg");
+      }
+    }
+  }
+}

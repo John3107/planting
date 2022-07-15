@@ -1,0 +1,17 @@
+.breadCrumbs {
+  display: flex;
+
+  .breadCrumb {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    color: #91A0B6;
+    margin-right: 17px;
+  }
+
+  .arrow {
+    margin-right: 16px;
+  }
+}
