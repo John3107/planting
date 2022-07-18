@@ -7,6 +7,9 @@ function Main() {
         <div className={style.main}>
             <BreadCrumbs/>
             <MainHeader />
+            <MainHeader />
+            <MainHeader />
+            <MainHeader />
         </div>
     );
 }

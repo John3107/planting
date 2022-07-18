@@ -1,17 +1,37 @@
 .breadCrumbs {
   display: flex;
+  margin-top: 64px;
 
-  .breadCrumb {
-    font-family: 'Poppins';
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    align-items: center;
-    color: #91A0B6;
-    margin-right: 17px;
-  }
-
-  .arrow {
+  .arrowRight {
     margin-right: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .breadCrumbs{
+    display: none;
+  }
+  .breadCrumbsMobile{
+    display: flex;
+    margin-top: 64px;
+    .arrowLeft{
+      margin-right: 8px;
+    }
+  }
+}
+
+.breadCrumb {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  color: #91A0B6;
+  margin-right: 17px;
+}
+
+@media (min-width: 768px) {
+  .breadCrumbsMobile{
+    display: none;
   }
 }
