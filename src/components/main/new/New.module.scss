@@ -1,0 +1,56 @@
+.new {
+  margin: 48px 0 0;
+  max-width: 100%;
+  @media (max-width: 1120px){
+    margin: 18px 0 0;
+  }
+  .main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    @media (max-width: 1120px){
+      flex-direction: column;
+    }
+
+    .image {
+      max-height: 100%;
+      max-width: 100%;
+      margin-right: 32px;
+      @media (max-width: 1120px){
+        margin-right: 0;
+        margin-bottom: 16px;
+      }
+    }
+
+    .mainText {
+      display: inherit;
+      flex-direction: column;
+      width: 100%;
+
+      .title{
+        font-family: 'Poppins';
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 72px;
+        color: #242424;
+        margin-bottom: 16px;
+      }
+      .description{
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #78787A;
+      }
+    }
+  }
+}
+
+.date {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ADB8C8;
+  margin-bottom: 8px;
+}
