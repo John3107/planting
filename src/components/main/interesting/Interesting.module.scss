@@ -1,0 +1,42 @@
+.interesting {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 56px;
+  @media (max-width: 1120px) {
+    padding-bottom: 0;
+  }
+
+  .title {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #91A0B6;
+    margin-bottom: 16px;
+    @media (max-width: 1120px) {
+      margin-bottom: 14px;
+    }
+  }
+
+  .container {
+    display: flex;
+    .box {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 7.3%;
+      max-width: 336px;
+      max-height: 240px;
+      @media (max-width: 1395px) {
+        grid-template-columns: 1fr 1fr;
+        max-width: 100%;
+        max-height: 100%;
+        grid-gap: 1.5%;
+      }
+      @media (max-width: 920px) {
+        display: flex;
+        flex-wrap: wrap;
+      }
+    }
+  }
+}

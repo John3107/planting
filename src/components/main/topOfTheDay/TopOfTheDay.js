@@ -1,5 +1,5 @@
 import style from './TopOfTheDay.module.scss'
-import ProfessionalRepot from "./professionalRepot/ProfessionalRepot"
+import ProfessionalRepot from "../professionalRepot/ProfessionalRepot"
 import professionalRepotLeft from "../../../assets/professional-repot-left.svg";
 import professionalRepotRight from "../../../assets/professional-repot-right.svg";
 
